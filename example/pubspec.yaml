@@ -8,17 +8,17 @@ environment:
 dependencies:
   image_picker: ^0.8.4+2
   path_provider: ^2.0.1
-  http: ^0.13.0
-
+  gallery_saver:
+    git:
+      url: https://github.com/dnphawaco/gallery_saver.git
+      ref: 5fbb2a409bdf6454f172694957430f1202b63633
   flutter:
     sdk: flutter
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  gallery_saver:
-    git:
-      url: https://github.com/dnphawaco/gallery_saver.git
+
 
 flutter:
   uses-material-design: true
